@@ -130,7 +130,7 @@ AGENTS.md                                              ← L1
 AGENTS/
   inventory/inventory.md                               ← L2 роутер
     baremetal/baremetal.md                             ← L3 роутер
-      homelab/homelab.md                               ← L4 лист
+      homelab/homelab.md                               ← L4 лист (+ networking/software/storage/maintenance рядом)
     vps/vps.md                                         ← L3 роутер
       vps-nl.md                                        ← L4 лист
       vps-lisa.md                                      ← L4 лист
@@ -149,20 +149,24 @@ AGENTS/
     scheduling.md                                      ← L3 лист
     skills.md                                          ← L3 лист
 
-SOUL.md                                                ← L1 (плоский, max L2)
+SOUL.md                                                ← L1 (max L2)
+SOUL/
+  personality.md                                       ← L2 лист
 
-TOOLS.md                                               ← L1
+TOOLS.md                                               ← L1 (max L4, расширяется динамически)
 TOOLS/
   stt/stt.md                                           ← L2 лист
   ssh/ssh.md                                           ← L2 лист
   printing/printing.md                                 ← L2 лист
 
-IDENTITY.md                                            ← L1 (плоский, max L2)
+IDENTITY.md                                            ← L1 (max L2)
+IDENTITY/
+  passport.md                                          ← L2 лист
 
-USER.md                                                ← L1
+USER.md                                                ← L1 (max L3)
 USER/
-  artem.md                                             ← L2 лист
-  dasha.md                                             ← L2 лист
+  artem/artem.md                                       ← L2 роутер
+  dasha/dasha.md                                       ← L2 роутер
 
 HEARTBEAT.md                                           ← L1 (плоский, без детей)
 MEMORY.md                                              ← L1 (плоский, без детей)
